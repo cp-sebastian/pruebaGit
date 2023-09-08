@@ -1,0 +1,18 @@
+/***********/
+-> Pasa el archivo al repositorio temporal
+git add nombre_del_archivo
+
+-> Pasa TODOS los archivos al respositorio temporal
+git add .
+
+/************/
+-> Agrega TODOS los archivos del repositorio temporal al local (Lo guarda creando una versión nueva)
+git commit -m "comentario que desees agregar"
+
+/************/
+-> Puedes ver todos las versiones que has guardado
+git log --oneline
+
+/************/
+-> Va a la versión en que pusiste el código, también puedes volver a la que estabas poniendo el código en que estabas
+git reset --hard código_de_la_versión
