@@ -13,6 +13,9 @@ git commit -m "comentario que desees agregar"
 -> Puedes ver todos las versiones que has guardado
 git log --oneline
 
+-> Puedes ver TODAS las versiones, incluso las borradas
+git reflog
+
 /************/
 -> Va a la versión en que pusiste el código, también puedes volver a la que estabas poniendo el código en que estabas
 git reset --hard código_de_la_versión
