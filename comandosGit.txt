@@ -1,3 +1,14 @@
+/*************/
+-> Ver todas las ramas
+git branch
+
+/************/
+-> Crear una nueva rama
+git checkout -b nombre_de_la_rama
+
+-> Cambiar de ramas
+git checkout nombre_de_la_rama
+
 /***********/
 -> Pasa el archivo al repositorio temporal
 git add nombre_del_archivo
@@ -10,6 +21,10 @@ git add .
 git commit -m "comentario que desees agregar"
 
 /************/
+-> Eliminar rama
+git branch -D nombre_de_la_rama
+
+/************/
 -> Puedes ver todos las versiones que has guardado
 git log --oneline
 
@@ -19,3 +34,8 @@ git reflog
 /************/
 -> Va a la versión en que pusiste el código, también puedes volver a la que estabas poniendo el código en que estabas
 git reset --hard código_de_la_versión
+
+/************/
+-> Para subir al respositorio en la nube (Github)
+git push origin nombre_de_la_rama
+
